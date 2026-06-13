@@ -1,0 +1,111 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.kubeconfig
+kubeconfig*
+secrets/
+private/
+
+# AI / agent local state
+.codex/
+.claude/
+.cursor/
+.continue/
+.aider*
+.openhands/
+transcripts/
+agent-runs/
+tool-logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+
+# JavaScript / TypeScript
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+coverage/
+.next/
+.nuxt/
+out/
+
+# Rust / C / C++ build outputs
+target/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# OS / emulator / hardware artifacts
+*.iso
+*.img
+*.bin
+*.elf
+*.map
+*.lst
+*.vcd
+*.fst
+*.gtkw
+qemu.log
+
+# Database / benchmark artifacts
+*.db
+*.sqlite
+*.sqlite3
+*.wal
+*.sst
+bench/
+profiles/
+flamegraphs/
+
+# Kubernetes / homelab generated state
+.terraform/
+*.tfstate
+*.tfstate.*
+ansible.retry
+inventory.local*
+clusters/local/
+
+# Large or generated media
+assets/generated/
+assets/raw/
+*.mp4
+*.mov
+*.webm
+
+# Keep empty directory placeholders
+!.gitkeep
